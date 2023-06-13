@@ -24,7 +24,7 @@ Follow these steps to run the application locally:
 The project structure is as follows:
 
 ```
-react-to-do-list/
+todolist/
   public/
     favicon.ico
     index.html
