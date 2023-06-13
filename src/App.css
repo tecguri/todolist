@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* CUSTOM CSS STARTED FROM HERE */
+.list-stack{
+  margin-top: 10px;
+}
+.list-stack div{
+  display: flex; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.list-stack input {
+  margin-right: 5px;
+}
+.custom-container{
+  width: 30%;
+}
+@media (max-width: 794px){
+  .custom-container{
+    width: 100% !important;
+  }
+}
+@media (max-width: 1200px){
+  .custom-container{
+    width: 50%;
+  }
+}
+.list-group {
+  text-align: left;
+}
+
+.list-group button {
+  padding: 0%;
+}
+
+.list-group span {
+  float: right;
+}
+
+.yourList {
+  margin-top: 50px;
+}
+
+.yourList .danger, .yourList .danger:hover {
+  color: #d10f0f !important;
+  background-color: var(--bs-btn-hover-color);
+  border-color: var(--bs-btn-hover-color);
+}
+
+.yourList .danger:focus-visible, .yourList .danger:active {
+  color: #a30000 !important;
+  background-color: var(--bs-btn-hover-color);
+  border-color: var(--bs-btn-hover-color);
+}
+
+
+.yourList .editList, .yourList .editList:hover {
+  color: #0d6efd !important;
+  background-color: var(--bs-btn-hover-color);
+  border-color: var(--bs-btn-hover-color);
+}
+
+.yourList .editList:focus-visible, .yourList .editList:active {
+  color: #0d6efd !important;
+  background-color: var(--bs-btn-hover-color);
+  border-color: var(--bs-btn-hover-color);
+}
+
+.editList{
+  margin: 0px 8px;
+}
