@@ -1,6 +1,4 @@
-Sure! Here's an example of a README file for a React.js project that implements a to-do list:
-
-# React To-Do List
+# To Do List Using React JS
 
 This project is a simple to-do list application built using React.js. It allows users to access the tasks list, add, edit, and delete tasks.
 
